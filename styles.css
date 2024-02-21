@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f7ff;
+    color: #1c2d7b;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #2f6ebd;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #f1f7ff;
+}
+
+header p {
+    margin: 0;
+    color: #f1f7ff;
+}
+
+
+header img {
+    max-width: 200px;
+    height: auto;
+}
+
+section {
+    padding: 50px 0;
+}
+
+#hero {
+    background-color: #f1f7ff;
+    text-align: center;
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#hero h2 {
+    margin: 0;
+    color: #1c2d7b;
+}
+
+#hero .call-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2f6ebd;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#contact {
+    background-color: #f1f7ff;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+#map {
+    width: 50%; /* Make the map half the width of the viewport */
+    height: 400px; /* Adjust height as needed */
+    margin: 0 auto; /* Center the map horizontally */
+    border: 1px solid #ccc; /* Add a border for clarity */
+}
